@@ -1,6 +1,31 @@
 .lead__img {
-  width: 984px;
+  max-width: 984px;
   height: 615px;
   margin: 64px auto 0;
-  display: block;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+  .lead__img {
+    margin-top: 56px;
+    height: 580px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .lead__img {
+    max-width: 768px;
+    height: 480px;
+    margin: 56px -24px 0;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .lead__img {
+    margin: 40px -16px 0;
+    max-width: 320px;
+    height: 200px;
+  }
 }

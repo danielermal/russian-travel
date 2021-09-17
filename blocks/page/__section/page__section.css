@@ -1,5 +1,27 @@
 .page__section {
-  width: 1184px;
+  max-width: 1184px;
   margin: 0 auto;
   padding: 0 48px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .page__section {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page__section {
+    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .page__section {
+    max-width: 288px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
 }

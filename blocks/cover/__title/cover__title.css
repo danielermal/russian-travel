@@ -3,6 +3,14 @@
   text-align: center;
   font-size: 72px;
   line-height: 76px;
-  font-weight: bold;
-  width: 560px;
+  font-weight: 900;
+  max-width: 560px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
