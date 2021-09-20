@@ -2,3 +2,12 @@
   margin: 0;
   align-self: end;
 }
+
+@media screen and (max-width: 767.98px) {
+
+  .place__webcite {
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

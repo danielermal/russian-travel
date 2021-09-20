@@ -4,5 +4,13 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
+  text-transform: uppercase;
   align-self: end;
+  margin: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .place__webcite-header {
+    margin: 0 0 12px 0;
+  }
 }
