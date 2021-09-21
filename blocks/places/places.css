@@ -27,5 +27,6 @@
   .places {
     margin-top: 64px;
     max-width: 320px;
+    padding: 0;
   }
 }
