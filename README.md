@@ -5,7 +5,7 @@
 * Картинки
 
 **Интро**
-* [Ссылка на проект в GitHub Pages](https://danielermal.github.io/russian-travel/)
+* [Ссылка на проект в GitHub Pages](https://danielermal.github.io/russian-travel/index.html)
 Это проект о путешествиях по России. В ходе его выполнения я освоил: 
 * работу с макетом в графическом редакторе;
 * научился верстать интерактивные формы;
