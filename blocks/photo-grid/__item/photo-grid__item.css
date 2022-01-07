@@ -1,6 +1,11 @@
 .photo-grid__item {
 max-width: 100%;
 height: 213px;
+transition: transform .3s linear;
+}
+
+.photo-grid__item:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1279.98px) {

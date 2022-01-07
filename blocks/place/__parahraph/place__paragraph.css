@@ -4,6 +4,11 @@
   line-height: 163%;
   margin: 0 0 26px 0;
   max-width: 484px;
+  transition: text-shadow .2s linear;
+}
+
+.place__paragraph:hover {
+  text-shadow: 5px 3px 2px rgba(0, 0, 0, 1);
 }
 
 .place__paragraph:last-of-type {

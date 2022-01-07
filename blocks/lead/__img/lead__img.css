@@ -2,6 +2,11 @@
   max-width: 984px;
   height: 615px;
   margin: 64px auto 0;
+  transition: transform .4s ease-in-out;
+}
+
+.lead__img:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1279.98px) {
